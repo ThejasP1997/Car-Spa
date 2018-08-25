@@ -1,0 +1,39 @@
+
+element {
+
+}
+.w3-top {
+
+    top: 0px;
+
+}
+.w3-top, .w3-bottom {
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+*, *::before, *::after {
+
+    box-sizing: inherit;
+
+}
+body, html {
+
+    color: #777;
+    line-height: 1.8;
+
+}
+body, h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Lato",sans-serif;
+
+}
+html, body {
+
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}

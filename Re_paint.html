@@ -1,0 +1,59 @@
+
+<html>
+<title>body wash</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Re_paint.css">
+<link rel="stylesheet" href="style.css">
+<body ng-app="myApp" id="bg">
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="main.html" class="w3-bar-item w3-button"><i class="fa fa-home" ></i>HOME</a>
+      <a href="main.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="main.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALLERY</a>
+      <a href="main.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cogs" aria-hidden="true"></i> SERVICES</a>
+      <a href="main.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="combo.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-tag"></i> OFFERS</a>
+  
+    </div>
+
+<h2 class="w3-center" style="color:white"><b>PAINTING</b></h2>
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="p1.jpg" style="width:100%">
+  <img class="mySlides" src="p2.jpg" style="width:100%">
+  <img class="mySlides" src="p3.jpg" style="width:100%">
+  <img class="mySlides" src="p4.jpg" style="width:100%">
+  <img class="mySlides" src="b5.jpg" style="width:100%">
+  <img class="mySlides" src="b6.jpg" style="width:100%">
+</div>
+<p><h5 style="color:white">Car painters (refinishers) are responsible for reinstating the pre-accident 
+    paint finish to cars after the structure and/or the panels have been repaired or replaced.
+   They may also be asked to completely repaint a whole vehicle either to change its colour or reinstate its newness. 
+   Car painters may also become involved in matching colours to an original colour no longer available or to colours that prove difficult to match. A car painter must match the colour, shade and texture of the adjoining panels that are not being painted.
+  
+  Car painters can work in various work environments from an autobody repair shop to an aircraft hangar, dependent upon what vehicle or transport system they are painting. They work to apply paints inside an enclosed spray booth/oven in order to protect the environment from harmful products.</h5></p>
+  <button onclick="myFunction()">Click to book</button>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+#bg{
+    background: url(b21.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+   height: auto;
+    width:auto;
+} 
+.mySlides {
+    display:none;
+}
